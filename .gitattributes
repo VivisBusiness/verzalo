@@ -1,0 +1,32 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Angular / NestJS specific configuration (if needed)
+*.ts text eol=lf
+*.html text eol=lf
+*.scss text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Ignore end-of-line normalization for the following files
+*.sh binary
+*.lock binary
+*.yml binary
+*.gitignore binary
+
+# Mark the following files as binary (they shouldn't be treated as text)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+
+#Git Large File Storage (LFS) configuration (if you use it) 
+#Uncomment the following lines to use Git LFS
+#.psd filter=lfs diff=lfs merge=lfs -text
